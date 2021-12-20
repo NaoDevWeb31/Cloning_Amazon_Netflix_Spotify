@@ -129,3 +129,26 @@ nav .signin {
     margin: 0 0 0.5em;
     text-transform: uppercase;
 }
+
+.btn {
+    font-size: 14px;
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 12px 2em;
+    color: #fff;
+    background-color: #e50914;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    user-select: none;
+    text-align: center;
+    border: 0;
+}
+
+nav .signin:hover,
+.btn:hover {
+    background: #f40612;
+}
